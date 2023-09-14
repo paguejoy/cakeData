@@ -4,8 +4,8 @@ const options = {
   method: 'GET',
   url: 'https://the-birthday-cake-db.p.rapidapi.com/60',
   headers: {
-    'X-RapidAPI-Key': '08e24492d2msha556b2fd85c2a89p19a46fjsn47cb164a3796',
-    'X-RapidAPI-Host': 'the-birthday-cake-db.p.rapidapi.com'
+    'X-RapidAPI-Key': process.env.XRapidAPIKey,
+    'X-RapidAPI-Host': process.env.XRapidAPIHost
   }
 };
 
