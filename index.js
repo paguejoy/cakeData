@@ -2,7 +2,7 @@
 
 const options = {
   method: 'GET',
-  url: 'https://the-birthday-cake-db.p.rapidapi.com/60',
+  url: proces.env.CakeURL,
   headers: {
     'X-RapidAPI-Key': process.env.XRapidAPIKey,
     'X-RapidAPI-Host': process.env.XRapidAPIHost
